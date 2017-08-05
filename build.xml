@@ -38,19 +38,17 @@
       <manifest>
         <attribute name="Main-Class" value="Rectangulator" />
 </manifest>
-<classes dir="${classes}" includes="**/*">
-</classes>
  
-<fileset dir="${basedir}/WebContent" casesensitive="yes">
+<fileset dir="${basedir}/" casesensitive="yes">
 <exclude name="META-INF/**"></exclude>
 <exclude name="WEB-INF/**"></exclude>
 </fileset>
-<webinf  dir="${basedir}/WebContent/WEB-INF" casesensitive="true" >
+<webinf  dir="${basedir}/WEB-INF" casesensitive="true" >
 <include name="web.xml"/>
 <include name="struts-config.xml"/>
 <include name="tiles-defs.xml"/>
 </webinf>
-<metainf dir="${basedir}/WebContent/META-INF" casesensitive="true"/>  
+<metainf dir="${basedir}/META-INF" casesensitive="true"/>  
   </war>
   </target>
 
