@@ -40,7 +40,7 @@
       </manifest>
 <exclude name="META-INF/**"></exclude>
 <exclude name="WEB-INF/**"></exclude>
-</fileset>
+
 <webinf  dir="${basedir}/WebContent/WEB-INF" casesensitive="true" >
 <include name="web.xml"/>
 <include name="struts-config.xml"/>
