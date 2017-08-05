@@ -37,9 +37,7 @@
     <war destfile="${dist.dir}\rectangle.war" basedir="${build.dir}">
       <manifest>
         <attribute name="Main-Class" value="Rectangulator" />
-      </manifest>
-<exclude name="META-INF/**"></exclude>
-<exclude name="WEB-INF/**"></exclude>
+</manifest>
 
 <webinf  dir="${basedir}/WebContent/WEB-INF" casesensitive="true" >
 <include name="web.xml"/>
