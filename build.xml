@@ -41,7 +41,8 @@
 <webinf  dir="${basedir}/WEB-INF" casesensitive="true" >
 <include name="web.xml"/>
 </webinf> 
-<metainf dir="${basedir}/META-INF" casesensitive="true" />
+<metainf dir="${basedir}/META-INF" casesensitive="true" >
+<include name="context.xml"/>
 </metainf>
  </war>
 </target>
