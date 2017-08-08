@@ -38,6 +38,9 @@
       <manifest>
         <attribute name="Main-Class" value="Rectangulator" />
 </manifest>
+<context>
+ <WatchedResource>WEB-INF/web.xml</WatchedResource>
+</context>
 <webinf  dir="${basedir}/WEB-INF" casesensitive="true" >
 <include name="web.xml"/>
 </webinf> 
